@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# pytest
+.cache/
+*.pytest_cache
+
+# Playwright
+playwright-report/
+videos/
+screenshots/
+trace/
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+.env
+.venv
+
+# Ignore node_modules if Playwright uses npm dependencies
+node_modules/
+
+# VSCode (if you use VSCode)
+.vscode/
+
+# Ignore IDE configurations (like PyCharm)
+.idea/
+
+# macOS specific
+.DS_Store
+
+playwright/.auth
